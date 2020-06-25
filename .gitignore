@@ -7,3 +7,4 @@ kitti_data
 models
 .idea/
 .ipynb_checkpoints/
+*.egg-info/
