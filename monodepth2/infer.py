@@ -1,3 +1,11 @@
+"""
+Simple inference functions for single images.
+Usage example:
+    model_name = 'mono+stereo_1024x320'
+    encoder, depth_decoder, input_size = load_model(model_name)
+    depth_arr, disp_img = infer(encoder, depth_decoder, input_size, img)
+"""
+
 import matplotlib as mpl
 import matplotlib.cm as cm
 from torchvision import transforms, datasets
